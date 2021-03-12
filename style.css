@@ -16,3 +16,18 @@
 #colophon {
     background-color: #674c45;
 }
+
+.info-sponsor a {
+    display: inline-block;
+    background: #9a7870;
+    color: white;
+    padding: 1rem;
+    box-shadow: .25rem .25rem 0 var(--footer-background-color);
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+
+.info-sponsor a:hover {
+    box-shadow: 0 0 0 var(--header-background-color);
+    background-color: var(--header-background-color);
+}
